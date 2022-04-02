@@ -1,0 +1,5 @@
+
+At the moment of writing, it shows pypilot Server: Not Connected. This seems to be related to a library incompatibity that can be solved with the following workaround:
+
+pip uninstall python-socketio python-engineio
+pip install "python-socketio<5"
